@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Connection String used in web.config by the application to access the database." defaultValue="Data Source=172.16.0.42;Initial Catalog=manifiestodb;User ID=Portal01;Password=Abcd.1234" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\spadmin\\Documents\\Visual\ Studio\ 2012\\Projects\\WsHitExtraEX\\WebServiceHit\\WebServiceHit\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="apexConnectionString-Web.config Connection String" description="apexConnectionString Connection String used in web.config by the application to access the database." defaultValue="Data Source=172.16.0.32;Initial Catalog=apex;User ID=Portal01;Password=Abcd.1234" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\spadmin\\Documents\\Visual\ Studio\ 2012\\Projects\\WsHitExtraEX\\WebServiceHit\\WebServiceHit\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='apexConnectionString']/@connectionString" />
+  </parameter>
+  <parameter name="manifiestodbConnectionString-Web.config Connection String" description="manifiestodbConnectionString Connection String used in web.config by the application to access the database." defaultValue="Data Source=172.16.0.42;Initial Catalog=manifiestodb;User ID=Portal01;Password=Abcd.1234" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\spadmin\\Documents\\Visual\ Studio\ 2012\\Projects\\WsHitExtraEX\\WebServiceHit\\WebServiceHit\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='manifiestodbConnectionString']/@connectionString" />
+  </parameter>
+  <parameter name="PortalHITConnectionString-Web.config Connection String" description="PortalHITConnectionString Connection String used in web.config by the application to access the database." defaultValue="Data Source=172.16.0.42;Initial Catalog=PortalHIT;User ID=portal01;Password=Abcd.1234" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\spadmin\\Documents\\Visual\ Studio\ 2012\\Projects\\WsHitExtraEX\\WebServiceHit\\WebServiceHit\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='PortalHITConnectionString']/@connectionString" />
+  </parameter>
+  <parameter name="billingConnectionString-Web.config Connection String" description="billingConnectionString Connection String used in web.config by the application to access the database." defaultValue="Data Source=172.16.0.42;Initial Catalog=billing;User ID=portal01;Password=Abcd.1234" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\spadmin\\Documents\\Visual\ Studio\ 2012\\Projects\\WsHitExtraEX\\WebServiceHit\\WebServiceHit\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='billingConnectionString']/@connectionString" />
+  </parameter>
+  <parameter name="ExtranetUsersConnectionString-Web.config Connection String" description="ExtranetUsersConnectionString Connection String used in web.config by the application to access the database." defaultValue="Data Source=10.40.2.14;Initial Catalog=ExtranetUsers;Persist Security Info=True;User ID=Portal01;Password=Abcd.1234" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\spadmin\\Documents\\Visual\ Studio\ 2012\\Projects\\WsHitExtraEX\\WebServiceHit\\WebServiceHit\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ExtranetUsersConnectionString']/@connectionString" />
+  </parameter>
+  <parameter name="testn4ConnectionString-Web.config Connection String" description="testn4ConnectionString Connection String used in web.config by the application to access the database." defaultValue="Data Source=172.16.0.70;Initial Catalog=testn4;Persist Security Info=True;User ID=navistest;Password=navistest" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\spadmin\\Documents\\Visual\ Studio\ 2012\\Projects\\WsHitExtraEX\\WebServiceHit\\WebServiceHit\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='testn4ConnectionString']/@connectionString" />
+  </parameter>
+</parameters>
